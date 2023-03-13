@@ -1,0 +1,269 @@
+/* HERO SECTION */
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/spiderman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main--hero {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.main--content {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.short--info {
+  color: #aaa;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.film--description {
+  font-size: 1.8rem;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.types {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.type-of-film {
+  color: #777;
+  border: 1px solid #902525;
+  border-radius: 9px;
+  padding: 0.7rem 1.4rem;
+}
+
+.action-btns {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3.2rem;
+}
+
+.action-btn {
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 0.7rem 1.4rem;
+  background: linear-gradient(
+    107.2deg,
+    rgb(150, 15, 15) 10.6%,
+    rgb(247, 0, 0) 91.1%
+  );
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+.icon-in-btn {
+  width: 2rem;
+  height: 2rem;
+}
+
+.statistics {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  gap: 9.6rem;
+}
+
+.stats--self {
+  max-width: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: start;
+  justify-content: right;
+}
+
+.stats--self span {
+  color: #fff;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.stats--self p {
+  color: #777;
+  font-size: 1.4rem;
+  text-align: center;
+}
+/* HERO NAVIGATION */
+.navigation {
+  padding-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3.2rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+  user-select: none;
+}
+
+.navigation--list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3.2rem;
+}
+
+.nav--item:link,
+.nav--item:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.nav--item:last-child {
+  margin-left: auto;
+}
+
+/* TOP relate movies */
+
+.feature--movies {
+  padding-top: 6.2rem;
+  padding-bottom: 9.8rem;
+}
+
+.top--movies {
+  margin-top: 3.2rem;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3.2rem;
+}
+
+.top-movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  overflow: hidden;
+  transition: 0.4s all ease-in-out;
+}
+
+.top-movie:hover {
+  transform: scale(1.1);
+}
+
+.movie--photo {
+  width: 100%;
+}
+
+/* About us */
+.about--us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 9.6rem;
+}
+
+.about--us--text {
+  margin-top: 3.2rem;
+  padding: 0 12.8rem;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ccc;
+}
+
+/* Testimonials and gallery */
+.testimonials--gallery {
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.reviews {
+  margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.customer-image {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.customer-name {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.review {
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  padding-right: 4.8rem;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1.6rem;
+  column-gap: 1.6rem;
+  align-items: stretch;
+  padding-bottom: 9.6rem;
+}
+
+.gallery--img--container {
+  overflow: hidden;
+}
+
+.gallery--img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in;
+}
+
+.gallery--img:hover {
+  transform: scale(1.2);
+}
+/* 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
